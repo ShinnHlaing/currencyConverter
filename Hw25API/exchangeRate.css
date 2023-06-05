@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: black;
+    font-size: 18px;
+}
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #360033, #0b8793);
+}
+
+.box {
+    background: linear-gradient(to right, #085078, #85d8ce);
+    padding: 1.5em;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    transition: all linear 1s;
+    box-shadow: 5px 5px 15px black;
+}
+.box:hover {
+   transform: translateY(-15px);
+}
+.topDiv {
+    display: flex;
+    background-color:#360033;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    border: 1px solid darkgrey;
+}
+.topDiv:hover {
+    border-color: white;
+}
+.topDiv:active {
+    border-color: white;
+}
+#input1,#input2 {
+    background-color:#360033;
+    color: white;
+    height: 40px;
+    width: 150px;
+    border: none;
+}
+#input1,#cCode1,#cCode2,#input2:hover {
+    cursor: pointer;
+}
+#input1:focus {
+    outline: none;
+}
+#input2:focus {
+    outline: none;
+}
+.selectDiv1 {
+    display: flex;
+    align-items: center;
+}
+.line {
+    width: 2px;
+    height: 40px;
+    background-color:#85d8ce;
+}
+#cCode1,#cCode2 {
+    background-color:#360033;
+    width: 100px;
+    height: 40px;
+    color: white;
+    border: none;
+}
+#cCode2:focus {
+    background-color:#360033;
+    outline: none;
+    border: none;
+}
+#cCode1:focus {
+    background-color:#360033;
+    outline: none;
+    border: none;
+}
+option {
+    color: white;
+}
+input,select {
+    height: 15px;
+    margin: 8px;
+}
+.result {
+    color: aqua;
+    font-size: 1.5em;
+}
+.load {
+    color: white;
+}
